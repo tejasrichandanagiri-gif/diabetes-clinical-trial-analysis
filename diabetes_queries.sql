@@ -37,5 +37,15 @@ GROUP BY medicine_type, adverse_reaction
 ORDER BY medicine_type, total_patients DESC;
 
 --Q4 Gender Vs DrugResponse
+SELECT 
+    t.medicine_type,
+    p.assigned_sex,
+    COUNT(p.patient_id) AS total_patients,
+    ROUND(AVG(t.hba1c_change), 2) AS avg_hba1c_change
+FROM patients_cl p
+JOIN treatment_ultra_cleaned t
+    ON p.patient_id = t.patient_id
+GROUP BY t.medicine_type, p.assigned_sex
+ORDER BY t.medicine_type, avg_hba1c_change ASC;
 
 
