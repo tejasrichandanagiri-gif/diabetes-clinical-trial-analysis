@@ -79,6 +79,17 @@ Females responded marginally better than males on both drugs, consistently acros
 
 ---
 
+## Tableau Dashboard
+The interactive dashboard includes 4 visualizations:
+- Drug Efficacy comparison
+- BMI vs Drug Response
+- Adverse Reactions breakdown
+- Gender vs Drug Response
+
+🔗 [View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/chandanagiri.teja.sri/viz/DiabetesClinicalTrialAnalysis-AuralinvsNovodra/DiabetesClinicaltrialAuralinVsNovodra)
+
+---
+
 ## About Me
 PharmD graduate passionate about healthcare data analytics.
-Connect with me on [LinkedIn](#)
+Connect with me on [LinkedIn](https://www.linkedin.com/in/tejasri-chandanagiri-a00528246/)
